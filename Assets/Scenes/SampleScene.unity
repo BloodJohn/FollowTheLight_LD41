@@ -114,7 +114,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1f8cda29d9225b1468caa019718defde, type: 2}
 --- !u!1 &134834361
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +337,10 @@ Prefab:
       propertyPath: m_Name
       value: Wall_window
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 224f7703a6e08b049beb1f7246fbfed1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 224f7703a6e08b049beb1f7246fbfed1, type: 3}
   m_IsPrefabAsset: 0
@@ -457,6 +461,10 @@ Prefab:
       propertyPath: m_Name
       value: Tumba
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2876dae0cb29e046b73bd88ee9ea335, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2876dae0cb29e046b73bd88ee9ea335, type: 3}
   m_IsPrefabAsset: 0
@@ -547,7 +555,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: ea5dd63e1598b564d908b8132a442bc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.87
+      value: -0.76
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea5dd63e1598b564d908b8132a442bc4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -655,6 +663,10 @@ Prefab:
     - target: {fileID: 100002, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
       propertyPath: m_Name
       value: Wall_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
@@ -1056,6 +1068,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 0.7388636
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
   m_IsPrefabAsset: 0
@@ -1109,6 +1125,10 @@ Prefab:
     - target: {fileID: 100002, guid: d1ad760fb00d39140a323b10f5afd0d7, type: 3}
       propertyPath: m_Name
       value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d1ad760fb00d39140a323b10f5afd0d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1ad760fb00d39140a323b10f5afd0d7, type: 3}
@@ -1497,6 +1517,10 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -8.1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
   m_IsPrefabAsset: 0
@@ -1756,6 +1780,10 @@ Prefab:
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae9f3e4ad1f528c4fbdc6688af849f9e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9f3e4ad1f528c4fbdc6688af849f9e, type: 3}
   m_IsPrefabAsset: 0
@@ -1971,6 +1999,10 @@ Prefab:
     - target: {fileID: 400002, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0589147
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb7a685b4b38aea4799a198e9f446757, type: 3}
