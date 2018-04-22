@@ -113,19 +113,19 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.027
-        neutralWhiteIn: 8
-        neutralBlackOut: 0.0178
-        neutralWhiteOut: 11.48
-        neutralWhiteLevel: 4.52
-        neutralWhiteClip: 10
+        neutralBlackIn: 0.0418
+        neutralWhiteIn: 11.04
+        neutralBlackOut: -0.0045
+        neutralWhiteOut: 15.56
+        neutralWhiteLevel: 2.5
+        neutralWhiteClip: 7.29
       basic:
         postExposure: 0
-        temperature: -10.9
-        tint: 7.8
-        hueShift: 0
-        saturation: 1.078
-        contrast: 1.055
+        temperature: -23.4
+        tint: -3.2
+        hueShift: -4
+        saturation: 1.14
+        contrast: 1.227
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -134,13 +134,13 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 1, b: 1, a: 0}
+          slope: {r: 0.97159165, g: 0.98404884, b: 1, a: 0}
           power: {r: 1, g: 1, b: 1, a: 0}
           offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 1, g: 1, b: 1, a: 0}
+          gamma: {r: 1, g: 1, b: 1, a: 0}
+          gain: {r: 1, g: 1, b: 1, a: 0}
       curves:
         master:
           curve:
