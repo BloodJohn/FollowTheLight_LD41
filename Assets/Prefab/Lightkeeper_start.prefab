@@ -84,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1308329517183842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.5, y: 0.8, z: -23.32451}
+  m_LocalPosition: {x: 0.59, y: 0.7, z: -23.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4772241236401562}
@@ -238,8 +238,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.22821665, g: 1, b: 0, a: 1}
-  m_Intensity: 8.3
-  m_Range: 24.57
+  m_Intensity: 8.2
+  m_Range: 19.42
   m_SpotAngle: 63.292427
   m_CookieSize: 10
   m_Shadows:
@@ -257,7 +257,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 3.32
