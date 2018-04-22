@@ -85,6 +85,6 @@ public class GameController : MonoBehaviour
 
     void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        LoseLevelController.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

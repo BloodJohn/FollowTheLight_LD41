@@ -15,7 +15,7 @@ public class ExitLevel : MonoBehaviour
 
         if (dist2 <= maxDist2 && !string.IsNullOrEmpty(nextSceneName))
         {
-            SceneManager.LoadScene(nextSceneName);
+            CompleteLevelController.LoadScene(nextSceneName);
             nextSceneName = string.Empty;
         }
     }
