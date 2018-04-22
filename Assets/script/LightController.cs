@@ -1,13 +1,17 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
-public class BoyController : MonoBehaviour
+public class LightController : MonoBehaviour
 {
     public RenderTexture screen;
     public Vector2Int screePixel;
     public float lightLevel;
     public Text lightText;
     public Color color;
+
+    public Action OnLostLight;
+    public bool isLight;
 
     private Texture2D tex;
 
@@ -27,6 +31,14 @@ public class BoyController : MonoBehaviour
 
         lightText.gameObject.SetActive(color.grayscale >= lightLevel);
         if (color.grayscale >= lightLevel)
-            lightText.color = new Color(1f,1f,1f, color.grayscale);
+        {
+            lightText.color = new Color(1f, 1f, 1f, color.grayscale);
+            isLight = true;
+        }
+        else if (isLight && OnLostLight != null)
+        {
+            OnLostLight();
+            isLight = false;
+        }
     }
 }
