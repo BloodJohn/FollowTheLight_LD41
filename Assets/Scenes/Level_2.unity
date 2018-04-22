@@ -1321,6 +1321,16 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114968788876344940, guid: 7eb4b75feb1793d4786a632285f5c61e,
+        type: 2}
+      propertyPath: nextSceneName
+      value: Level_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114968788876344940, guid: 7eb4b75feb1793d4786a632285f5c61e,
+        type: 2}
+      propertyPath: boy
+      value: 
+      objectReference: {fileID: 2085632907}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eb4b75feb1793d4786a632285f5c61e, type: 2}
   m_IsPrefabAsset: 0
