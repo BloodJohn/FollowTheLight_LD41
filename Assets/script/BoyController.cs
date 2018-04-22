@@ -7,13 +7,13 @@ public class BoyController : MonoBehaviour
     public Vector2Int screePixel;
     public float lightLevel;
     public Text lightText;
-
+    public Color color;
 
     private Texture2D tex;
 
     void Awake()
     {
-        tex = new Texture2D(128, 128, TextureFormat.ARGB32, false);
+        tex = new Texture2D(screen.width, screen.height, TextureFormat.ARGB32, false);
     }
 
     void Update()
@@ -23,7 +23,7 @@ public class BoyController : MonoBehaviour
         tex.ReadPixels(new Rect(0, 0, screen.width, screen.height), 0, 0);
         tex.Apply();
         RenderTexture.active = currentActive;
-        var color = tex.GetPixel(screePixel.x, screePixel.y);
+        color = tex.GetPixel(screePixel.x, screePixel.y);
 
         lightText.gameObject.SetActive(color.grayscale >= lightLevel);
         if (color.grayscale >= lightLevel)
