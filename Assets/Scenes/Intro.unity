@@ -181,8 +181,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
   m_Text: "Boy's common room becomes a magical place when the night comes. \nAvoid
-    the darkness so as not to be frightened. \nFind a Teddy bear at the other end
-    of the room to complete the level."
+    the darkness so as not to wet pants.\nFind a Teddy bear at the end of the room
+    to complete the level.\n"
 --- !u!222 &152623355
 CanvasRenderer:
   m_ObjectHideFlags: 0
